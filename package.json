@@ -1,0 +1,45 @@
+{
+    "name": "agway_react",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@devloco/react-scripts-wptheme": "3.4.0-wp.1",
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.4.1",
+        "@testing-library/user-event": "^7.2.1",
+        "axios": "^0.19.2",
+        "create-react-class": "^15.6.3",
+        "react": "^16.13.0",
+        "react-autosuggest": "^9.4.3",
+        "react-dom": "^16.13.0",
+        "react-image-lightbox": "^5.1.1",
+        "styled-components": "^5.0.1"
+    },
+    "scripts": {
+        "crabuild": "react-scripts build",
+        "craeject": "react-scripts eject",
+        "crastart": "react-scripts start",
+        "cratest": "react-scripts test",
+        "build": "wptheme-scripts build",
+        "start": "wptheme-scripts start",
+        "wpbuild": "wptheme-scripts wpbuild",
+        "wpstart": "wptheme-scripts wpstart"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "homepage": "/agway-photos/wp-content/themes/agway_react",
+    "browserLaunchTo": "http://geekpowerdev.com/agway-photos"
+}
